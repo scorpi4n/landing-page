@@ -5,85 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>scorpi4n | home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" url="style.css">
 </head>
 
 <body>
-    <div class="greeting">
-        <div class="navbar">
-            <div class="logo">scorpi4n</div>
+    <div class="header">
+        <div class="logo">scorpi4n</div>
+
+        <nav class="navigation">
             <ul>
-                <li><a href="#">shop</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">contact</a></li>
+                <li>about</li>
+                <li>contact</li>
             </ul>
-        </div>
-        <h1>Welcome to the Matrix.</h1>
-        <div class="header">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium aenean pharetra magna ac placerat vestibulum lectus. Porta non pulvinar neque laoreet. Nisl rhoncus mattis rhoncus urna neque. Fermentum posuere urna nec tincidunt praesent. Lorem ipsum dolor sit amet. Suspendisse ultrices gravida dictum fusce ut placerat. Nulla pellentesque dignissim enim sit amet. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Mauris commodo quis imperdiet massa tincidunt. Facilisis volutpat est velit egestas dui. Nunc pulvinar sapien et ligula ullamcorper malesuada. Faucibus vitae aliquet nec ullamcorper. Varius sit amet mattis vulputate enim nulla aliquet porttitor lacus.</p>
-            <img src="./images/cats.jpeg" alt="Two cats cuddling peacefully.">
-        </div>
+        </nav>
     </div>
 
     <div class="content">
-        <div class="title">Subject</div>
-
-        <div class="container">
-            <div class="info">
-                <img src="./images/black-peppercorns.jpg" alt="Black peppercorns/">
-                <div class="text">Fun fact about above image!</div>
+        <div class="intro">
+            <div>
+                <h1 class="title">Welcome!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="info">
-                <img src="./images/szechuan-peppercorns.jpg" alt="Szechuan peppercorns.">
-                <div class="text">Fun fact about above image!</div>
-            </div>
-            <div class="info">
-                <img src="./images/vanilla-beans.jpg" alt="Vanilla beans.">
-                <div class="text">Fun fact about above image!</div>
-            </div>
-            <div class="info">
-                <img src="./images/whole-coriander-seeds.jpg" alt="Coriander seeds, whole.">
-                <div class="text">Fun fact about above image!</div>
-            </div>
-            <div class="info">
-                <img src="./images/whole-spanish-saffron.jpg" alt="Spanish saffron, whole.">
-                <div class="text">Fun fact about above image!</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="quotes">
-        <div class="quote">"You should have gone for the head..." -Thanos, 2018
+            <img src="./images/cats.jpeg" alt="Two cats cuddling">
         </div>
 
-        <div class="quote">"I know right? You're probably thinking, 'Whose balls did I have to fondle to get my very own movie'? I can't tell you his name, but it rhymes with 'Polverine.'" -Deadpool, 2016
+        <div class="relevant-info">
+            <h2>Relevant Information</h2>
+            <div class="container">
+                <div class="info">
+                    <img src="./images/black-peppercorns.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada.</p>
+                </div>
+
+                <div class="info">
+                    <img src="./images/szechuan-peppercorns.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada.</p>
+                </div>
+
+                <div class="info">
+                    <img src="./images/vanilla-beans.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada.</p>
+                </div>
+
+                <div class="info">
+                    <img src="./images/whole-coriander-seeds.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada.</p>
+                </div>
+
+                <div class="info">
+                    <img src="./images/whole-spanish-saffron.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada.</p>
+                </div>
+            </div>
         </div>
 
-        <div class="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut sem viverra aliquet eget sit." -Somebody, sometime
+        <div class="quote">
+            <p>I &lt;3 photography</p>
         </div>
-    </div>
 
-    <div class="call-to-action">
         <div class="signup">
-            <p>Click here to get rickrolled!</p>
-            <button>I see you :)</button>
+            <form class="signup-form" action="#" method="get">
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="promo">Would you like to recieve promotional emails regarding product updates?</label>
+                    <input type="checkbox" id="promo" name="promo">
+                </div>
+                <div><button type="reset">reset</button><button type="submit">submit</button></div>
+            </form>
         </div>
     </div>
 
     <div class="footer">
-        <div class="important-links">
+        <div class="left-links">
             <ul>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Repos</a></li>
+                <li><a href="https://github.com/scorpi4n">Github</a></li>
+                <li><a href="https://www.instagram.com/j.phillips192/">Instagram</a></li>
+                <li><a href="https://wiki.archlinux.org">Arch Linux Wiki</a></li>
             </ul>
         </div>
-
-        <div class="copyright">scorpi4n</div>
-
-        <div class="social-media-links">
+        <div class="logo">scorpi4n</div>
+        <div class="right-links">
             <ul>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Github</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Business Inquiries</a></li>
             </ul>
         </div>
     </div>
