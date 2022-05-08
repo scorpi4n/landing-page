@@ -124,3 +124,26 @@ body {
 
     font-size: x-large;
 }
+
+/* signup form */
+
+.signup {
+    margin: 3rem;
+}
+
+.signup-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.signup-form > * {
+    margin: 1rem;
+    max-width: fit-content;
+}
+
+input {
+    outline: none;
+}
+
+/* footer */
