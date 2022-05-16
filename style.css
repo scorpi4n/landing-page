@@ -42,6 +42,10 @@ body {
     text-decoration: none;
 }
 
+.header a:hover {
+    opacity: .65;
+}
+
 /* intro */
 
 .intro {
@@ -147,3 +151,29 @@ input {
 }
 
 /* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+    background-color: rgb(20, 20, 20);
+}
+
+.footer ul {
+    display: flex;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer a {
+    color: whitesmoke;
+}
+
+.footer a:hover {
+    opacity: .65;
+}
